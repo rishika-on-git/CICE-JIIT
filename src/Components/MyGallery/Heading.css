@@ -1,0 +1,73 @@
+.container-heading {
+    margin-bottom: 0%;
+    margin-left: 3%;
+  }
+  
+  .py-12{
+    padding-bottom: 2%;
+  }
+  .flex-container {
+    display: flex;
+  }
+  
+  .column-container {
+    flex-direction: column;
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .gap-4 {
+    gap: 0.8rem;
+  }
+  
+  .md-flex-row {
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  
+  .md-items-end {
+    @media (min-width: 768px) {
+      align-items: flex-end;
+    }
+  }
+  
+  .md-padding-container {
+    @media (min-width: 768px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+  .max-width-text {
+    max-width: 32rem;
+  }
+  
+  .text-size-large {
+    font-size: 2.25rem;
+  }
+  
+  .text-color-yellow {
+    color: #fbbf24; /* Example color for yellow */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .md-text-size-extra-large {
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+  
+  .text-color-cyan {
+    color: #2b6cb0; /* Example color for cyan */
+  }
+  

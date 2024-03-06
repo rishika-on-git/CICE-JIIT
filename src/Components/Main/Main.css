@@ -1,0 +1,114 @@
+
+.main-text p{
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 80px;
+  letter-spacing: 5px;
+  /* top: 50%; */
+  /* position: absolute; */
+  margin-top: -40px;
+  transition: 4s;
+  
+  text-shadow: -1px -1px 0px var(--background),
+    3px 3px 0px var(--background),
+    6px 6px 0px #00000055;
+  font-size:7rem;
+  font-weight:900;
+  font-family: 'Unbounded', sans-serif;
+ 
+
+}
+
+.main-text{
+    margin:15% 5%;
+}
+
+.main-text h3{
+
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 80px;
+  letter-spacing: 5px;
+  /* top: 70%; */
+  /* position: absolute; */
+  margin-top: -5px;
+  transition: 4s;
+  
+  text-shadow: -1px -1px 0px var(--background),
+    3px 3px 0px var(--background),
+    6px 6px 0px #00000055;
+  font-size:3rem;
+  font-weight:900;
+  font-family: 'Unbounded', sans-serif;
+
+
+} 
+
+
+
+@media only screen and (max-width: 740px) {
+    .main-text p {
+      font-size: 3rem; /* Adjust the font size as needed */
+    }
+      .main-text h3{
+      font-size: 2rem;
+    }
+  }
+  
+
+
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+
+.main-text p , .main-text h3 {
+    animation: lights 5s 750ms linear infinite;
+  
+
+}

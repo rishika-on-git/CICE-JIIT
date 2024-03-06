@@ -1,0 +1,188 @@
+
+.about {
+    padding: 80px 0;
+    color: aliceblue;
+    /* Adjust padding as needed for spacing */
+  }
+  
+  .section__title {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+  
+  .about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+  }
+  
+  .timeline {
+    max-width: 800px; /* Adjust max-width as needed */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #212020; /* Background color */
+    box-shadow: 4px 4px 10px rgba(255, 252, 252, 0.1); /* Box shadow for a subtle effect */
+    overflow: hidden; /* Ensure content doesn't overflow the rounded box */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about {
+      padding: 40px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .section__title {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .timeline {
+      max-width: 70%; /* Allow the box to take full width on smaller screens */
+    }
+  }
+  
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     align-items: center ;
+     margin-top: 0%;
+  }
+  
+  .about__title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5%;
+    color: #fff; /* Neon text color */
+    text-shadow: 4px 3px 3px rgba(27, 25, 25, 0.5); /* Neon text shadow */
+    background: linear-gradient(108.7deg, rgb(34, 219, 231) -0.9%, rgb(52, 118, 246) 88.7%);
+    text-align: center;
+    width:50%;
+    border-radius: 5%;
+  }
+  
+  /* About.css */
+  
+  #about {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .about__container {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  /* Add any other styling you need for your about section */
+  
+  .about-team-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .about-team-column {
+    width: 100%;
+    padding: 0.5em 0.5em;
+  }
+  
+  .about-team-card {
+    box-shadow: 0 0 2.4em rgba(234, 232, 236, 0.1);
+    /* padding: 3.5em 1em; */
+    border-radius: 0.6em;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 80%;
+  
+  }
+  
+  
+  .about-team-card:hover {
+    background: linear-gradient(#6045ea, #8567f7);
+    color: #ffffff;
+  }
+  .team-card:hover .team-img-container {
+    transform: scale(1.15);
+  }
+  @media screen and (max-width: 768px) {
+     /* .about-team-section {
+      padding: 1em;
+    } */
+    .about-team-card {
+      width: 100%;
+    } 
+    .about-team-column {
+      flex: 0 0 33.33%;
+      min-width: 100%;
+    }
+  }
+  
+  .about-team-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+  }
+  .about-team-column {
+    /* width: 80%; */
+    padding: 0.5em 0.5em;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    color: #1f003b;
+  }
+  .about-team-card {
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    padding: 3.5em 1em;
+    border-radius: 0.6em;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+  }
+  /* .team-card .team-img-container {
+    width: 8em;
+    height: 8em;
+    background-color: #a993ff;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+  } */
+  
+  .about-team-card:hover {
+    background: linear-gradient(#6045ea, #8567f7);
+    color: #ffffff;
+  }
+  .about-team-card:hover .team-img-container {
+    transform: scale(1.15);
+  }
+  @media screen and (max-width: 768px) {
+    .about-team-section {
+      padding: 1em;
+    }
+   
+    .about-team-column {
+      flex: 0 0 33.33%;
+      min-width: 100%;
+    }
+  }
+  
